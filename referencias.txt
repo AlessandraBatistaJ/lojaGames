@@ -1,0 +1,6 @@
+Sites:
+    https://store.steampowered.com/
+    https://www.eneba.com/br/store/games
+    https://store.epicgames.com/pt-BR/
+    https://needgames.com.br/?utm_source=GoogleAds&utm_medium&utm_campaign=PMaxNintendo&utm_content=x&utm_term&gad_source=1&gclid=CjwKCAjwko21BhAPEiwAwfaQCBp7ulQX3U1-W4mfP61eLTqiAlTVCiH26FPHRr8Ls98TaCL_bz5UUBoCgXQQAvD_BwE
+    https://hype.games/br
