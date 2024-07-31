@@ -8,3 +8,6 @@ Sites de jogos:
 Paletas de cores:
     https://color.adobe.com/pt/
     https://cssgradient.io/
+
+Ícones de interface: 
+    https://www.flaticon.com/br/
