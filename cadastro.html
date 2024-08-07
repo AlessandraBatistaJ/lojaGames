@@ -1,37 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Cyber Play - Cadastro</title>
-    </head>
-    
-    <body>
-        <figcaption>
-            <img src="./img/logo-banner" alt="CyberPlay">
-        </figcaption>
-        
-         <h1>Cadastre-se</h1>
-
-        <form action="PHP" method="POST">
-            <label for="name">Nome</label><br />
-            <input type="text" id="nome" placeholder="Digite seu nome">
-            <br />
-            <label for="e-mail">E-mail</label><br />
-            <input type="text" id="e-mail" placeholder="Digite seu e-mail">
-            <br />
-            <label for="senha">senha</label><br />
-            <input type="password" id="senha" placeholder="Digite sua senha">
-            <br />
-            <label for="confirma">Confirma sua senha</label><br />
-            <input type="password" id="confirma" placeholder="Confirme sua senha ">
-            <br />
-            <input type="checkbox"> Li e concordo com os termos de serviços e as politicas de privacidades da LGPD.  
-            <br />
-            <br />
-            <input type="button" id="Cadastro" value="Cadastrar">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Play - Cadastro</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./img/logo.png" alt="logo" width="150px" height="150px">
+        </div>
+    </header>
+    <main>
+        <form>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email"  name="email" placeholder="E-mail" required>
+            </div>
+            <br>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password"  name="senha" placeholder="Senha" required>
+            </div>
+            <br>
+            <div>
+                <button type="submit">Entrar</button>
+            </div>
         </form>
-            
-    </body>
+        <br>
+        <div>
+            <p>Ou faça login com</p>
+            <div>
+                <a href="#"><img src="./img/cadastro/gmail.png" alt="ícone gmail" width="40px" height="40px"></a>
+                <a href="#"><img src="./img/cadastro/facebook.png" alt="ícone facebook" width="40px" height="40px"></a>
+                <a href="#"><img src="./img/cadastro/steam.png" alt="ícone steam" width="40px" height="40px"></a>
+                <a href="#"><img src="./img/cadastro/x.png" alt="ícone X" width="40px" height="40px"></a>
+            </div>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <div>
+            <strong>Primeira vez no CyberPlay?</strong><br>
+            <a href="cadastro.html"><button>Cadastre-se</button></a><br>
+        </div>
+        <div>
+            <small>
+                É grátis e simples. Encontre vários jogos e confira nossas novidades. <br>
+                <u>Saiba mais sobre a CyberPlay</u>
+            </small>
+        </div>
+    </footer>
+</body>
 </html>
+
 
