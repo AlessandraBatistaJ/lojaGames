@@ -11,3 +11,11 @@ Paletas de cores:
 
 Ícones de interface: 
     https://www.flaticon.com/br/
+
+Código cores do layout
+
+    #4C6983
+
+    #38556A
+
+    #273952
