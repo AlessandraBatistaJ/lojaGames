@@ -1,0 +1,250 @@
+/* Estilos para Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-img {
+    width: 110px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.nav-container {
+    display: flex;
+    gap: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #151B2B;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px; /* Adiciona padding para melhor área de clique */
+    border-radius: 5px; /* Cantos arredondados para todos os links */
+    transition: background-color 0.3s; /* Suaviza a transição de fundo */
+    line-height: normal;
+}
+
+.nav-container a:hover {
+    background-color: #34495e; /* Cor de fundo ao passar o mouse */
+}
+
+.nav-container a.active {
+    background-color: #3a566b; /* Cor de fundo do item ativo */
+    font-weight: bold; /* Negrito para o item ativo */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilos para Categoria Section */
+
+.categoria-section h1 {
+    color: white;
+    font-family: Robboto, sans-serif;
+    padding-left: 5px;
+    background-color: #3a566b; /* Cor de fundo, ajuste conforme necessário */
+    padding: 7px; /* Adiciona padding para dar espaço ao redor do texto */
+    border-radius: 5px; /* Opcional: para cantos arredondados */
+    width: 10%;
+    margin-left: 10px;
+}
+.categoria-section img {
+    width: 218px;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.categoria-item {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #4c6983;
+    border-radius: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+.categoria-titulo {
+    margin: 5px;
+    color: white;
+    font-family: Robboto, sans-serif;
+}
+
+/* Estilos para Lancamento Section */
+ h3 {
+    padding-left: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ecf0f1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 989px bottom;
+    background-size: 19px;
+    margin-bottom: -18px;
+}
+
+.lancamento-section {
+    font-family: Robboto, sans-serif;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.lancamento-section img{
+    width: 213px;
+    height: auto;
+    max-width: 100%;
+    object-fit: scale-down;
+}
+
+.lancamento-item {
+    display: inline-block;
+    padding-right: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.lancamento-titulo {
+    margin-top: 3px;
+}
+
+/* Estilos para Main Content */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+/* Estilos para Filtro Section */
+.filtro-section {
+    width: 250px;
+    background-color: #273952; /* Cor de fundo escura */
+    padding: 10px;
+    padding-top: 0;
+    border-radius: 5px; /* Cantos arredondados */
+    color: #ecf0f1; /* Texto claro */
+    font-family: Robboto, sans-serif;
+}
+
+.filtro-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    position: relative; /* Para posicionar o ícone */
+}
+
+.filtro-item label {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #ecf0f1; /* Mantém o texto claro */
+}
+
+.filtro-item input[type="text"],
+.filtro-item select {
+    padding: 10px;
+    background-color: #273952; /* Fundo dos campos igual ao fundo do contêiner */
+    border: none; /* Remove a borda padrão */
+    border-bottom: 1px solid #34495e; /* Linha divisória inferior */
+    color: #ecf0f1; /* Texto claro */
+    outline: none; /* Remove o contorno padrão */
+    transition: border-color 0.3s;
+    font-size: 16px; /* Aumenta o tamanho da fonte para destaque */
+    -webkit-appearance: none; /* Remove o estilo padrão do select no Safari */
+    -moz-appearance: none; /* Remove o estilo padrão do select no Firefox */
+    appearance: none; /* Remove o estilo padrão do select */
+    cursor: pointer; /* Muda o cursor para pointer */
+}
+
+.filtro-item input[type="text"]::placeholder {
+    color: #bdc3c7; /* Cor do placeholder */
+}
+
+.filtro-item input[type="text"]:focus,
+.filtro-item select:focus {
+    border-bottom-color: #2980b9; /* Cor da borda ao focar */
+}
+
+.filtro-item select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23ecf0f1' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    padding-right: 30px; /* Espaço para o ícone */
+}
+
+.filtro-section button {
+    background: none;
+    border: none;
+    color: #2980b9;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    text-align: right;
+}
+
+#search {
+  padding: 10px;
+  background-color: #34495e; /* Cor de fundo específica para o input de texto */
+  border: 1px solid #34495e; /* Borda igual à cor de fundo */
+  border-radius: 5px; /* Cantos arredondados */
+  color: #ecf0f1; /* Texto claro */
+  outline: none; /* Remove o contorno padrão */
+  font-size: 16px; /* Tamanho da fonte */
+  width: 100%; /* Ocupa toda a largura disponível */
+  box-sizing: border-box; /* Inclui padding e border no total do tamanho */
+}
+
+#search::placeholder {
+  color: #bdc3c7; /* Cor do placeholder */
+}
+
+#search:focus {
+  border-color: #2980b9; /* Cor da borda ao focar */
+}
+
+
+
+body {
+    background-color: #273952;
+}
+
+
+footer {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
