@@ -1,106 +1,114 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./categorias.css">
     <title>Cyber Play - Categorias</title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="./img/logo.png" alt="Cyber Play Logo">
-        </div>
-        <nav>
-            <a href="buscar.html" target="blank">Buscar jogos</a>
-            <a href="categorias.html" target="blank">Categorias</a>
-            <a href="promocoes.html" target="blank">Promoções</a>
-            <a href="#">Lançamentos</a>         
-        </nav>
-        <div>
-            <img src="./img/profile.png" alt="Ícone de Perfil">
-        </div>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="./img/logo.png" alt="Cyber Play Logo" class="logo-img">
+            </div>
+            <nav class="nav-container">
+                <a href="buscar.html">BUSCAR JOGOS</a>
+                <a href="categorias.html" class="active">CATEGORIAS</a>
+                <a href="promocoes.html">PROMOÇÕES</a>
+                <a href="lancamentos.html">LANÇAMENTOS</a>  
+            </nav>
+            <div class="profile-container">           
+                <img src=".\img\profile.png" alt="Ícone de Perfil" class="profile-icon">
+            </div>
+        </div>    
     </header>
+    
     <main>
-        <section>
+        <section class="categoria-section">
             <h1>Categorias</h1>
-            <div>
+            <div class="categoria-item">
                 <img src="./img/categorias/jogo1.png" alt="Corrida">
-                <p>Corrida</p>
+                <p class="categoria-titulo">Corrida</p>
             </div>
-            <div>
+            <div class="categoria-item">
                 <img src="./img/categorias/jogo2.png" alt="Estratégia">
-                <p>Estratégia</p>
+                <p class="categoria-titulo">Estratégia</p>
             </div>
-            <div>
+            <div class="categoria-item">
                 <img src="./img/categorias/jogo3.png" alt="Casuais">
-                <p>Casuais</p>
+                <p class="categoria-titulo">Casuais</p>
             </div>
-            <div>
+            <div class="categoria-item">
                 <img src="./img/categorias/jogo4.png" alt="Esporte">
-                <p>Esporte</p>
+                <p class="categoria-titulo">Esporte</p>
             </div>
         </section>
-        <section>
-            <h2>Mostrar: Novo Lançamento</h2>
-            <div>
-                <div>
+        <h3>Mostrar: Novo Lançamento</h3>
+        <div class="main-content">
+            <section class="lancamento-section">
+                <div class="lancamento-item">
                     <img src="./img/categorias/lançamentos/fc25.png" alt="FC 25">
-                    <p>FC 25<br>R$299,90</p>
+                    <p class="lancamento-titulo">FC 25<br>R$299,90</p>
                 </div>
-                <div>
+                <div class="lancamento-item">
                     <img src="./img/categorias/lançamentos/trepang2.png" alt="Trepang2">
-                    <p>Trepang2<br>R$69,90</p>
+                    <p class="lancamento-titulo">Trepang2<br>R$69,90</p>
                 </div>
-                <div>
+                <div class="lancamento-item">
                     <img src="./img/categorias/lançamentos/astranova.png" alt="Astra Nova">
-                    <p>Astra Nova<br>Gratuito</p>
+                    <p class="lancamento-titulo">Astra Nova<br>Gratuito</p>
                 </div>
-                <div>
+                <div class="lancamento-item">
                     <img src="./img/categorias/lançamentos/oceansheart.png" alt="Ocean's Heart">
-                    <p>Ocean's Heart<br>R$39,90</p>
+                    <p class="lancamento-titulo">Ocean's Heart<br>R$39,90</p>
                 </div>
-            </div>
-        </section>
-        <aside>
-            <div>
-                <label for="search">Palavras-chave:</label>
-                <input type="text" id="search">
-            </div>
-            <div>
-                <label for="price">Preço:</label>
-                <select id="price">
-                    <option value="all">Todos</option>
-                    <option value="free">Gratuitos</option>
-                    <option value="paid">Pagos</option>
-                </select>
-            </div>
-            <div>
-                <label for="genre">Gênero:</label>
-                <select id="genre">
-                    <option value="all">Todos</option>
-                    <option value="action">Ação</option>
-                    <option value="adventure">Aventura</option>
-                    <option value="sports">Esportes</option>
-                </select>
-            </div>
-            <div>
-                <label for="platform">Plataforma:</label>
-                <select id="platfom">
-                    <option value="all">Todos</option>
-                    <option value="pc">PC</option>
-                    <option value="console">Console</option>
-                </select>
-            </div>
-            <div>
-                <label for="players">Jogadores</label>
-                <select id="players">
-                    <option value="all">Todos</option>
-                    <option value="single">Um Jogador</option>
-                    <option value="multi">Multi Jogador</option>
-                </select>
-            </div>
-            <button>Redefinir</button>
-        </aside>
+            </section>
+            <aside class="filtro-section">
+                <div class="filtro-item">
+                    <label for="search">FILTROS:</label>
+                    <input type="text" id="search" placeholder="palavra-chave">
+                </div>
+                <div class="filtro-item">
+                    <label for="price">Preço:</label>
+                    <select id="price">
+                        <option value="vazio"></option>
+                        <option value="all">Todos</option>
+                        <option value="free">Gratuitos</option>
+                        <option value="paid">Pagos</option>
+                    </select>
+                </div>
+                <div class="filtro-item">
+                    <label for="genre">Gênero:</label>
+                    <select id="genre">
+                        <option value="vazio"></option>
+                        <option value="all">Todos</option>
+                        <option value="action">Ação</option>
+                        <option value="adventure">Aventura</option>
+                        <option value="sports">Esportes</option>
+                    </select>
+                </div>
+                <div class="filtro-item">
+                    <label for="platform">Plataforma:</label>
+                    <select id="platform">
+                        <option value="vazio"></option>
+                        <option value="all">Todos</option>
+                        <option value="pc">PC</option>
+                        <option value="console">Console</option>
+                    </select>
+                </div>
+                <div class="filtro-item">
+                    <label for="players">Jogadores:</label>
+                    <select id="players">
+                        <option value="vazio"></option>
+                        <option value="all">Todos</option>
+                        <option value="single">Um Jogador</option>
+                        <option value="multi">Multi Jogador</option>
+                    </select>
+                </div>
+                <button>Redefinir</button>
+            </aside>
+        </div>
     </main>
     <footer>
         <div>
@@ -108,18 +116,16 @@
                 Feito pela equipe 4:
             </span>
         <div>
-            <ul>
-                <li>Alessandra Batista</li>
-                <li>Ana Clara Abreu</li>
-                <li>Jorge Pedro</li>
-                <li>Karina Otubo</li>
-                <li>Osmar Filho</li>
-                <li>Thiago Sabino</li>
-            </ul>
+            Alessandra Batista |
+            Ana Clara Abreu |
+            Jorge Pedro |
+            Karina Otubo |
+            Osmar Filho |
+            Thiago Sabino |
         </div>
         <div>
             <span>
-                © 2024, Cyber Play, Inc. Todos os direitos reservados.O Cyber Play é um projeto final do bootcamp Talent Cloud - Front-End, da Proz. 
+                <strong>&COPY; 2024, Cyber Play, Inc.</strong> Todos os direitos reservados.O Cyber Play é um projeto final do bootcamp Talent Cloud - Front-End, da Proz. 
                 Todo trabalho foi feito pelos alunos do Grupo 4, com supervisão dos professores e demais membros da equipe da Proz.
         </div>
     </footer>
