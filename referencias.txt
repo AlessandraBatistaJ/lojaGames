@@ -11,3 +11,12 @@ Paletas de cores:
 
 Ícones de interface: 
     https://www.flaticon.com/br/
+
+fonte:
+    Adicionar no head do html essas tags:   <link rel="preconnect" href="https://fonts.googleapis.com">
+                                            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                            <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+    Adicionar no css:
+                                            * {
+                                                font-family: 'Maven Pro', sans-serif;
+                                                 }
