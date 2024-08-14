@@ -76,12 +76,15 @@
 
 .promocoes-item {
     display:inline-block;
+    margin: 40px;
     margin-right: 60px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
     text-align: center;
     background-color: #4c6983;
     border-radius: 8px;
     padding-bottom: 18px;
+    align-items: stretch;
 }
 
 body {
