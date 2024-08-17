@@ -4,41 +4,39 @@
     align-items: center;
     height: 100%;
 }
-
-.logo-conteiner {
+.logo-container {
     display: flex;
     align-items: center;
-    height: 100%
-    margin-left: 10px;
+    height: 100%;
+    margin-left: 15px;
 }
-
 .logo-img {
     width: 110px;
     height: auto;
     object-fit: cover;
     display: block;
 }
-
 .nav-container {
     display: flex;
     gap: 150px;
     justify-content: space-evenly;
     align-items: center;
-    font-family: 'Marven Pro', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     height: 100%;
     font-weight: 500;
     border-radius: 5px;
     background-color: #151B2B;
 }
-
 .nav-container a {
     text-decoration: none;
     color:white;
     font-size: 16px;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s;
     line-height: normal;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
 .nav-container a:hover {
@@ -55,45 +53,65 @@
     align-items: center;
 }
 
-.profle-icon {
+.profile-icon {
     width: 50px;
     height: auto;
     object-fit: cover;
     display: block;
+    padding-right: 22px;
+    border-radius: 5px;
 }
-
 /* Estilos para Promoção Section*/
 
 .promocoes-section h1 {
     color: white;
     font-family:'Maven Pro', sans-serif;
-    padding-left: 5px;
-    padding-right: none;
+    padding-left: 10px;
     background-color: #3a566b;
     padding: 7px;
     border-radius: 5px;
-    width: 12%;
-    margin-left: 10px;
-    height: 100%;
+    width: fit-content;
+    margin-left: 30px;
 }
 
 .promocoes-container {
-    height: 400px;
-    display: inline-block;
-    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
     text-align: center;
+    margin-left: 10px;
+}
+.promocoes-item {
     background-color: #4c6983;
     border-radius: 8px;
-    margin-left: 10px;
-    margin: 40px;
-}
+    width: 18%;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+   }
 
+.promocoes-item figcaption {
+    margin-top: 10px;
+}   
+
+.promocoes-item span {
+    color: red;
+    font-weight: bold;
+}   
+
+.promocoes-item img {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
 body {
     background-color: #273952;
 }
 
 footer {
     color: white;
-    font-family: 'Marven Pro', sans-serif;
-    margin-left: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    margin-left: 40px;
 }
