@@ -1,0 +1,77 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-img {
+    width: 110px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    display: block; 
+}
+
+
+.nav-container {
+    display: flex;
+    gap: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #151B2B;
+}
+
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px; /* Adiciona padding para melhor área de clique */
+    border-radius: 5px; /* Cantos arredondados para todos os links */
+    transition: background-color 0.3s; /* Suaviza a transição de fundo */
+    line-height: normal;
+}
+
+.nav-container a:hover {
+    background-color: #34495e; /* Cor de fundo ao passar o mouse */
+}
+
+.nav-container a.active {
+    background-color: #3a566b; /* Cor de fundo do item ativo */
+    font-weight: bold; /* Negrito para o item ativo */
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #273952;
+}
+
+
+footer {
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    margin-left: 40px;
+}
