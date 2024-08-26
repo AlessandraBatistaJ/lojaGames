@@ -12,7 +12,6 @@ Paletas de cores:
 Ícones de interface: 
     https://www.flaticon.com/br/
 
-<<<<<<< HEAD
 fonte:
     Adicionar no head do html essas tags:   <link rel="preconnect" href="https://fonts.googleapis.com">
                                             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +20,3 @@ fonte:
                                             * {
                                                 font-family: 'Maven Pro', sans-serif;
                                                  }
-=======
-Código cores do layout
-
-    #4C6983
-
-    #38556A
-
-    #273952
->>>>>>> cc5abc12dc2a3f6a71b8393aa3cab0a7e44b2bbe

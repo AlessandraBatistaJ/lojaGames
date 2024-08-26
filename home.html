@@ -11,52 +11,53 @@
 </head>
 <body>
     <header>
-        <div>
-            <img src="./img/logo.png" alt="Cyber Play Logo">
-        </div>
-        <nav>
-            <ul>
-                <li class="selecao"><a href="buscar.html" target="_blank">Buscar jogos</a></li>
-                <li class="selecao"><a href="categorias.html" target="_blank">Categorias</a></li>
-                <li class="selecao"><a href="promocoes.html" target="_blank">Promoções</a></li>
-                <li class="selecao"><a href="promocoes.html" target="_blank">Lançamentos</a></li>
-            </ul>
-        </nav>
+        <div class="containerHeader">
             <div>
-                <img src="./img/profile.png" alt="Ícone de Perfil">
+                <img src="./img/logo.png" alt="Cyber Play Logo">
             </div>
-        
-        </header>
+            <div class="containerNav">
+                <nav>
+                    <a href="buscar.html" class="itensNav">BUSCAR JOGOS</a>
+                    <a href="categorias.html" class="itensNav">CATEGORIAS</a>
+                    <a href="promocoes.html" class="itensNav">PROMOÇÕES</a>
+                    <a href="lancamentos.html" class="itensNav">LANÇAMENTOS</a>  
+                </nav>
+            </div>
+            <div class="containerLogin">           
+                <img src=".\img\profile.png" alt="Ícone de Perfil" class="profile-icon">
+            </div>
+        </div>    
+    </header>
 
     <main>
         <section>
-            <div>
+            <div class="containerWelcome">
                 <img src="./img/home/welcomeToGame.png" alt="imagem central">
             </div>
         </section>
         
         <section>
-            <div>
-                <h3>Destaques da semana</h3>
+            <div class="containerH3">
+                <h3 id="destaques">Destaques da semana</h3>
             </div>
-            <div class="games">
-                <figure>
-                    <img src="./img/home/deadByDayLight.png" alt="Jogo dead by daylight">
+            <div class="containerGames">
+                <figure class="containerFigure">
+                    <img src= "./img/home/deadByDayLight.png" alt="Jogo dead by daylight">
                     <figcaption>-50 % R$99,90</figcaption>
                 </figure>
-                <figure>
+                <figure class="containerFigure">
                     <img src="./img/home/plantsVsZombies.png" alt="Jogo plants vs zombies">
                     <figcaption>-20 % R$29,90</figcaption>
                 </figure>
-                <figure>
+                <figure class="containerFigure">
                     <img src="./img/home/zelda.png" alt="Jogo zelda">
                     <figcaption>-10 % R$199,90</figcaption>
                 </figure>
-                <figure>
+                <figure class="containerFigure">
                     <img src="./img/home/fc24.png" alt="Jogo FC 24">
                     <figcaption>-15 % R$259,90</figcaption>
                 </figure>
-                <figure>
+                <figure class="containerFigure">
                     <img src="./img/home/wac.png" alt="Jogo wac">
                     <figcaption>-30 % R$79,90</figcaption>
                 </figure>
