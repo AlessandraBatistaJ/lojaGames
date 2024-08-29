@@ -5,51 +5,88 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: #273952;
 }
 
-.containerHeader {
-    display: flex;
-    text-align: start;
-
-}
-
-
-header div img {
-    height: 120px;
-    width: 120px;
-    margin-left: 50px;
-}
-
-.containerNav { 
+.header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.logo-img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.nav-container {
+    display: flex;
+    gap: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Maven Pro', sans-serif;
+    height: 100%;
+    font-weight: 500;
+    border-radius: 5px;
     background-color: #151B2B;
-    padding: 15px;
-    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 25px;
 }
 
-nav {
-    margin-left: 320px;
-    margin-right: 320px;
+.nav-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    line-height: normal;
+    padding-left: 20px;
+    margin-right: 20px;
 }
 
-.itensNav {
-    display: inline-flex;
-    
-   
+.nav-container a:hover {
+    background-color: #34495e;
 }
 
-
-.containerWelcome { 
-   display: flex;
-   margin-bottom: 15px;
-   margin-top: -20px;
+.profile-container {
+    display: flex;
+    align-items: center;
 }
 
-.containerH3{
+.profile-icon {
+    width: 60px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    padding-right: 22px;
+    border-radius: 5px;
+}
+
+.containerWelcome {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.containerWelcome img {
+    width: 1400px;
+    height: auto;
+}
+
+.containerH3 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -63,31 +100,36 @@ nav {
     font-size: 1.2rem;
 }
 
-#destaques { 
+#destaques {
     display: flex;
     text-align: center;
 }
-
-
 
 .containerGames {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    margin-left: 45px;
+    margin-right: 60px;
+    gap: 17px;
 }
 
-.containerFigure{
+.containerFigure {
     display: block;
     background-color: #4C6983;
     border-radius: 10px;
     padding-bottom: 12px;
     color: #fff;
-    font-weight:400px;
+    font-weight: 400;
     margin-left: 12px;
     margin-right: 12px;
+    width: 150px; 
 }
 
-div figure img {
+.containerFigure img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
