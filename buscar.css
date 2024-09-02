@@ -1,0 +1,8 @@
+body {
+    background-color:#273952;
+}
+
+.logo-img {
+    display: flex;
+    align-items: center;
+}
