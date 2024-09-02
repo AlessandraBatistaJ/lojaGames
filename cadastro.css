@@ -4,5 +4,5 @@ body {
 
 .logo-img {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
