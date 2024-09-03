@@ -1,8 +1,11 @@
 body {
-    background-color:#273952;
+    background-color: aqua;
 }
 
 .logo-img {
-    display: flex;
-    align-items: center;
+    width: 150px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
