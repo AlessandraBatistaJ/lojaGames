@@ -82,24 +82,80 @@ body {
 }
 
 .container-lego {
-   /* Captura de Tela 2024-07-30 às 23.12.14 1 */
-
-position: absolute;
-width: 520px;
-height: 520px;
-left: 515px;
-top: 322px;
-
-background: url(Captura de Tela 2024-07-30 às 23.12.14.png);
-
+    position: absolute;
+    width: 600px;
+    height: 520px;
+    left: 500px;
+    top: 322px;
 }
 
+.container-lego img {
+    width: 442px;
+    height: 350px;
+    margin-left: 20px;
+}
 .container-aside {
+    width: 30%; 
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: auto;
-    margin: 10px #000;
-    padding: 25px;
-
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 850px; 
+    margin-top: 150px;
 }
+
+.aside-item {
+    background-color: #34495e;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
+}
+
+
+#container-caracteristica {
+
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px; 
+    padding: 10px;
+    background-color: #fff; 
+    border-radius: 5px; 
+    margin-top: 100px;
+    margin-left: 480px;
+    margin-right: 480px ;
+    }
+    
+    #container-caracteristica strong {
+        font-size: 18px;
+        color: #000; 
+        margin-bottom: 10px; 
+    }
+    
+    #container-caracteristica p {
+        color: #000; 
+        font-size: 16px;
+    }
+    
+    .containerFooter {
+        color: #fff;
+        margin-top: 150px;
+        margin-left: 60px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    
+    }
+    ul{
+        list-style-type: none;
+        margin-left: 10px;
+    
+    }
+    #containerCopy {
+        margin-top: 20px;
+    }
+
