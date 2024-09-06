@@ -1,3 +1,13 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #273952;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -41,4 +51,55 @@
 
 .nav-container a:hover {
     background-color: #34495e;
+}
+
+.nav-container a.active {
+    background-color: #3a566b;
+    font-weight: bold;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 50px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    padding-right: 22px;
+    border-radius: 5px;
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 898px;
+    height: 66px;
+    left: 231px;
+    top: 184px;
+    background: linear-gradient(90deg, #4C6983 0%, #4C6983 100%);
+}
+
+.container-lego {
+   /* Captura de Tela 2024-07-30 às 23.12.14 1 */
+
+position: absolute;
+width: 520px;
+height: 520px;
+left: 515px;
+top: 322px;
+
+background: url(Captura de Tela 2024-07-30 às 23.12.14.png);
+
+}
+
+.container-aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+    margin: 10px #000;
+    padding: 25px;
+
 }

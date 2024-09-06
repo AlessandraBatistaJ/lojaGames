@@ -141,6 +141,11 @@ body {
     font-size: smaller;
 }
 
+.desconto p figcaption {
+    color: red;
+    font-weight: bold;
+}
+
 .containerFooter {
     color: #fff;
     margin-top: 150px;
