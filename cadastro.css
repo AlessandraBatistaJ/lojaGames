@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box; 
+    font-family: 'Maven Pro', sans-serif;   
 }
 
 body {
@@ -9,7 +10,8 @@ body {
 }
 
 .logo-img {
-width: 250px;
+width: 200px;
+height: 100;
 top: 44px;
 display: block;
 margin-left: auto;
@@ -18,20 +20,73 @@ margin-right: auto;
 
 .email > input {
     display: flex;
-    justify-content: center; 
-    padding: 10px;  
-    width: 350px;
-    height: 30px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto 3px;
+    width: 365px;
+    height: 33px;
     border-radius: 5px;
-    
+    background-color: #4c6983;
+    outline: none;    
     }
 
 .senha > input{
     display: flex;
-    align-items: center; 
-    padding: 10px;   
-    border-radius: 5px;      
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+    margin: 0 auto 5px; 
+    width: 365px;
+    height: 33px;
+    border-radius: 5px; 
+    background-color: #4c6983; 
+    outline: none;    
+    :-ms-input-placeholder {
+        color:#ffffff;
+    }  
 }
+
+.btn_entrar {
+    width: 221px;
+    height: 40px;
+    padding: top 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    font-family: 'Maven Pro', sans-serif;
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.divider::after, .divider::before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: white;
+    color: #ffffff;
+    margin: 2px 0,5em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.itens {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
 
 .email > label {
     display: none;
