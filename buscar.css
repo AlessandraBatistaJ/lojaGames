@@ -8,24 +8,28 @@
 body {
     background-color: #273952;
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
     height: 100%;
     margin-left: 15px;
 }
+
 .logo-img {
     width: 110px;
     height: auto;
     object-fit: cover;
     display: block;
 }
+
 .nav-container {
     display: flex;
     gap: 150px;
@@ -37,6 +41,7 @@ body {
     border-radius: 5px;
     background-color: #151B2B;
 }
+
 .nav-container a {
     text-decoration: none;
     color:white;
@@ -71,14 +76,15 @@ body {
     padding-right: 22px;
     border-radius: 5px;
 }
+
 .input-container {
     display: flex;
     justify-content: center;
     width: 898px;
     height: 66px;
-    left: 231px;
-    top: 184px;
-    background: linear-gradient(90deg, #4C6983 0%, #4C6983 100%);
+    left: 31px;
+    top: 181px;
+    background: linear-gradient(90deg, #4c6983 0%, #4C6983 100%);
 }
 
 .container-lego {
@@ -89,11 +95,16 @@ body {
     top: 322px;
 }
 
-.container-lego img {
-    width: 442px;
-    height: 350px;
-    margin-left: 20px;
+.container-lego > img {
+    
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    /*width: 442px;*/
+   /* height: 344px;*/
+    /*top: 322px;*/
+    /*left: 231; */   
 }
+
 .container-aside {
     width: 30%; 
     display: flex;
@@ -121,22 +132,26 @@ body {
 
     display: flex;
     flex-direction: column; 
+    width: 1092px;
+    justify-content: left;
     margin-top: 20px; 
     padding: 10px;
     background-color: #fff; 
     border-radius: 5px; 
     margin-top: 100px;
-    margin-left: 480px;
-    margin-right: 480px ;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     #container-caracteristica strong {
+        width: 971px;
         font-size: 18px;
         color: #000; 
         margin-bottom: 10px; 
     }
     
     #container-caracteristica p {
+        width: 971px;
         color: #000; 
         font-size: 16px;
     }
@@ -147,14 +162,14 @@ body {
         margin-left: 60px;
         margin-right: 20px;
         margin-bottom: 20px;
-        font-size: 12px;
-    
+        font-size: 12px;    
     }
+
     ul{
         list-style-type: none;
-        margin-left: 10px;
-    
+        margin-left: 10px;    
     }
+
     #containerCopy {
         margin-top: 20px;
     }
