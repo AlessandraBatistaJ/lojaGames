@@ -28,7 +28,9 @@ margin-right: auto;
     height: 50px;
     font-size: 20px;
     border-radius: 5px;
-    outline: none;    
+    cursor: pointer;
+    outline: none;  
+    background-color: #4c6983;  
     }
 
 .senha > input{
@@ -40,12 +42,12 @@ margin-right: auto;
     width: 420px;
     height: 50px;
     font-size: 20px;
-    border-radius: 5px; 
-    outline: none;    
-    :-ms-input-placeholder {
-        color:#ffffff;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline: none;
+    background-color: #4c6983;       
     }  
-}
+
 
 .btn_entrar {
     width: 221px;
@@ -57,6 +59,7 @@ margin-right: auto;
     padding: 8px;
     border-radius: 5px;
     font-family: 'Maven Pro', sans-serif;
+    cursor: pointer;
     font-size: 25px;
     background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
 }
@@ -86,6 +89,34 @@ margin-right: auto;
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+}
+
+/*.left, .right {
+    flex: 1;
+}*/
+.rodape {
+    display: flex;
+}
+
+.left {
+    flex: auto;
+    width: 40vw;
+    height: 20vh; 
+    text-align: center; 
+    margin-top: 10px; 
+    padding-left: 50px; 
+}
+
+.left > strong {
+    padding: 0px 0px 10px 0px;
+}
+
+.right {
+    flex: auto;
+    width: 40vw;
+    height: 20vh;
+    margin-top: 10px;
+    padding-left: 20px;
 }
 
 
