@@ -102,7 +102,9 @@ margin-right: auto;
     height: 20vh; 
     text-align: center; 
     margin-top: 10px; 
-    padding-left: 50px; 
+    padding-left: 90px; 
+    text-align: right;
+    margin-right: 50px;
 }
 .left > a > button{
     color: black;
