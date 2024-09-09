@@ -1,6 +1,5 @@
 * {
     font-family: 'Maven Pro', sans-serif;
-    margin: auto;
     padding: auto;
     box-sizing: border-box;
 }
@@ -80,43 +79,43 @@ body {
 .input-container {
     display: flex;
     justify-content: center;
-    width: 898px;
+    width: 50%;
+    max-width: 900px;
     height: 66px;
-    left: 31px;
-    top: 181px;
     background: linear-gradient(90deg, #4c6983 0%, #4C6983 100%);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container-lego, .container-aside {
+    flex: 1; /* Os dois contêineres ocuparão o mesmo espaço */
 }
 
 .container-lego {
-    position: absolute;
-    width: 600px;
-    height: 520px;
-    left: 500px;
-    top: 322px;
-}
-
-.container-lego > img {
-    
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    /*width: 442px;*/
-   /* height: 344px;*/
-    /*top: 322px;*/
-    /*left: 231; */   
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    border-radius: 10px;
+    /* align-items: center; */
+    /* background-color: #f9f9f9;  */
 }
 
 .container-aside {
-    width: 30%; 
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    border-radius: 5px;
-    margin-left: 850px; 
+    justify-content: space-between;
+    background-color: #273952; /* Cor de fundo opcional */
+}
+
+aside {
     margin-top: 150px;
+    display: flex;
+    align-items: stretch; /* Garante que os dois elementos tenham a mesma altura */
 }
 
 .aside-item {
-    background-color: #34495e;
+    background-color: #273952;
+    width: 50%;
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 30px;
@@ -125,6 +124,15 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
     background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
+}
+
+
+#buscar-input {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
 }
 
 
