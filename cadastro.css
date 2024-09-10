@@ -68,6 +68,9 @@ margin-right: auto;
 
 .divider {
     display: flex;
+    width: 50%;
+    margin-left: 370px;
+    justify-content: center;
     align-items: center;
     color: #ffffff;
     font-family: 'Maven Pro', sans-serif;
