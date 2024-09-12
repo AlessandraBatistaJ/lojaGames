@@ -7,8 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./cadastro.css">
-
-    <link rel="stylesheet" href="./cadastro.css">
+    <script src="cadastro.js" defer></script>
     <title>Cyber Play - Cadastro</title>
 </head>
 <body>
@@ -21,20 +20,22 @@
         
         <div class="email">
             <label for="email">E-mail:</label>
-            <input type="email"  name="email" placeholder="E-mail" required>
+            <input type="email"  name="email" placeholder="E-mail" id="email" required>
+            <p id="email-helper" class="helper-text">*Campo obrigatório</p>
         </div>
 
             <br>
 
         <div class="senha">
             <label for="senha">Senha:</label>
-            <input type="password"  name="senha" placeholder="Senha" required>
+            <input type="password"  name="senha" placeholder="Senha" id="senha" required>
+            <p id="senha-helper" class="helper-text">*Campo obrigatório</p>
         </div>
 
             <br>
 
         <div class="btn_entrar">
-            <botton type="submit" value="Entrar">Entrar</botton>
+            <button type="submit">Entrar</button>
         </div>
         
             <br>

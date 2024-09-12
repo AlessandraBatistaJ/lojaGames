@@ -70,7 +70,7 @@ body {
 .divider {
     display: flex;
     width: 50%;
-    margin-left: 370px;
+    margin-left: 480px;
     justify-content: center;
     align-items: center;
     color: #ffffff;
@@ -150,3 +150,45 @@ footer {
     font-family: 'Maven Pro', sans-serif;
     margin-left: 40px;
 }
+
+/* validação do formulário */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  .visible {
+    display: block;
+  }
+
+
+  .helper-text {
+    color: #ff6347;
+    font-size: 14px;
+    margin-top: 5px; 
+    text-align: left; 
+    display: flex;
+    justify-content: center; 
+}
+
+
