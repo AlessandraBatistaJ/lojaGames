@@ -1,3 +1,9 @@
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -109,9 +115,14 @@
 body {
     background-color: #273952;
 }
-
-footer {
-    color: white;
-    font-family: 'Maven Pro', sans-serif;
-    margin-left: 40px;
+.containerFooter {
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+#containerCopy {
+    margin-top: 20px;
 }
