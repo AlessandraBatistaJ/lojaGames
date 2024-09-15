@@ -49,6 +49,17 @@ body {
     background-color: #4c6983;       
     }  
 
+    .email > label {
+        display: none;
+    }
+    
+    .senha > label {
+        display: none;
+    }
+
+    input::placeholder {
+        color:white;
+    }
 
 .button {
     display: flex;
@@ -87,7 +98,6 @@ a,.button {
     padding: 1px;
     background-color: white;
     color: #ffffff;
-   /* margin: 0,5em;*/
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -109,6 +119,7 @@ a,.button {
     flex: auto;
     width: 40vw;
     height: 20vh; 
+    color: white;
     text-align: center; 
     margin-top: 10px; 
     padding-left: 90px; 
@@ -129,10 +140,6 @@ a,.button {
     margin-top: 2%;
 }
 
-input::placeholder {
-    color:white;
-}
-
 .right {
     flex: auto;
     width: 40vw;
@@ -141,12 +148,8 @@ input::placeholder {
     padding-left: 20px;
 }
 
-.email > label {
-    display: none;
-}
-
-.senha > label {
-    display: none;
+.right > small {
+    color: white;
 }
 
 .containerFooter {
