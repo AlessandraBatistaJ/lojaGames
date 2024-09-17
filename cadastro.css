@@ -49,28 +49,47 @@ body {
     background-color: #4c6983;       
     }  
 
+    .email > label {
+        display: none;
+    }
+    
+    .senha > label {
+        display: none;
+    }
 
-.btn_entrar {
+    input::placeholder {
+        color:white;
+    }
+
+.button {
+    display: flex;
     width: 221px;
     height: 40px;
-    padding: top 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 8px;
+    padding-left: 80px;
+    padding-top: 6px;
     border-radius: 5px;
     font-family: 'Maven Pro', sans-serif;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
 }
 
+a,.button {
+    text-decoration: none;
+}
 
 .divider {
     display: flex;
     width: 50%;
+<<<<<<< HEAD
     margin-left: 400px;
+=======
+    margin-left: 370px;
+>>>>>>> b278a23561bc447b5278ed843e7763778f06608a
     justify-content: center;
     align-items: center;
     color: #ffffff;
@@ -83,7 +102,6 @@ body {
     padding: 1px;
     background-color: white;
     color: #ffffff;
-   /* margin: 0,5em;*/
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -105,6 +123,7 @@ body {
     flex: auto;
     width: 40vw;
     height: 20vh; 
+    color: white;
     text-align: center; 
     margin-top: 10px; 
     padding-left: 90px; 
@@ -125,10 +144,6 @@ body {
     margin-top: 2%;
 }
 
-input::placeholder {
-    color:white;
-}
-
 .right {
     flex: auto;
     width: 40vw;
@@ -137,17 +152,13 @@ input::placeholder {
     padding-left: 20px;
 }
 
-.email > label {
-    display: none;
-}
-
-.senha > label {
-    display: none;
+.right > small {
+    color: white;
 }
 
 .containerFooter {
     color: #fff;
-    margin-top: 150px;
+    margin-top: 80px;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
