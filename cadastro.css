@@ -1,13 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
-    font-family: 'Maven Pro', sans-serif;   
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;  
 }
+
 
 body {
     background-color: #273952;
 }
+
 
 .logo-img {
     width: 200px;
@@ -17,6 +19,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .email > input {
     display: flex;
@@ -30,71 +33,59 @@ body {
     border-radius: 5px;
     cursor: pointer;
     outline: none;  
-    background-color: #4c6983; 
+    background-color: #4c6983;
+
 
     }
+
 
 .senha > input{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;  
-    margin: 0 auto 5px; 
+    margin: 0 auto 5px;
     width: 420px;
     height: 50px;
     font-size: 20px;
     border-radius: 5px;
-    cursor: pointer; 
+    cursor: pointer;
     outline: none;
-    background-color: #4c6983;       
+    background-color: #4c6983;      
     }  
 
-    .email > label {
-        display: none;
-    }
-    
-    .senha > label {
-        display: none;
-    }
 
-    input::placeholder {
-        color:white;
-    }
 
-.button {
-    display: flex;
+
+.btn_entrar {
     width: 221px;
     height: 40px;
+    padding: top 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-left: 80px;
-    padding-top: 6px;
+    padding: 8px;
     border-radius: 5px;
     font-family: 'Maven Pro', sans-serif;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
 }
 
-a,.button {
-    text-decoration: none;
-}
+
+
 
 .divider {
     display: flex;
     width: 50%;
-<<<<<<< HEAD
-    margin-left: 400px;
-=======
-    margin-left: 370px;
->>>>>>> b278a23561bc447b5278ed843e7763778f06608a
+    margin-left: 480px;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     font-family: 'Maven Pro', sans-serif;
 }
+
 
 .divider::after, .divider::before {
     flex: 1;
@@ -102,9 +93,11 @@ a,.button {
     padding: 1px;
     background-color: white;
     color: #ffffff;
+   /* margin: 0,5em;*/
     margin-left: 5px;
     margin-right: 5px;
 }
+
 
 .itens {
     display: flex;
@@ -114,22 +107,24 @@ a,.button {
     margin-top: 15px;
 }
 
+
 .rodape {
     display: flex;
     height: 90px;
 }
 
+
 .left {
     flex: auto;
     width: 40vw;
-    height: 20vh; 
-    color: white;
-    text-align: center; 
-    margin-top: 10px; 
-    padding-left: 90px; 
+    height: 20vh;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 90px;
     text-align: right;
     margin-right: 50px;
 }
+
 
 .left > a > button{
     color: black;
@@ -144,6 +139,12 @@ a,.button {
     margin-top: 2%;
 }
 
+
+input::placeholder {
+    color:white;
+}
+
+
 .right {
     flex: auto;
     width: 40vw;
@@ -152,22 +153,30 @@ a,.button {
     padding-left: 20px;
 }
 
-.right > small {
-    color: white;
+
+.email > label {
+    display: none;
 }
+
+
+.senha > label {
+    display: none;
+}
+
 
 .containerFooter {
     color: #fff;
-    margin-top: 80px;
+    margin-top: 150px;
     margin-left: 30px;
     margin-right: 20px;
     margin-bottom: 20px;
     font-size: 12px;
-    
+   
 }
 #containerCopy {
     margin-top: 20px;
 }
+
 
 /* validação do formulário */
 .required-popup::after {
@@ -182,31 +191,27 @@ a,.button {
     display: block;
     background-color: #202020;
   }
-  
+ 
   input.error {
     border: solid 2px #992020;
     background-color: #CCBBBB;
     color: #662020;
   }
-  
+ 
   input.correct {
     background-color: #BBCCBB;
     border: solid 2px #206620;
     color: #206620;
   }
-  
+ 
   .visible {
     display: block;
   }
 
 
   .helper-text {
-    color: #ff6347;
-    font-size: 14px;
-    margin-top: 5px; 
-    text-align: left; 
     display: flex;
-    justify-content: center; 
-}
+    justify-content: center;
+  }
 
 
