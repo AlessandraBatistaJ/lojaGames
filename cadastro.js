@@ -70,3 +70,6 @@ senhaInput.addEventListener("change", function(evento) {
     }
 })
 
+
+
+

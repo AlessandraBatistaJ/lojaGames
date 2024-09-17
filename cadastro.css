@@ -70,7 +70,7 @@ body {
 .divider {
     display: flex;
     width: 50%;
-    margin-left: 480px;
+    margin-left: 400px;
     justify-content: center;
     align-items: center;
     color: #ffffff;
