@@ -141,10 +141,10 @@ body {
     font-size: smaller;
 }
 
-.desconto p figcaption {
+.containerFigure span {
     color: red;
     font-weight: bold;
-}
+}   
 
 .containerFooter {
     color: #fff;
@@ -152,7 +152,7 @@ body {
     margin-left: 60px;
     margin-right: 20px;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 11.5px;
 
 }
 ul{
