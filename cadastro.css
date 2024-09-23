@@ -100,7 +100,7 @@ body {
 
 
 .itens {
-    display: flex;
+    display: none;
     gap: 25px;
     justify-content: center;
     align-items: center;
@@ -212,6 +212,8 @@ input::placeholder {
   .helper-text {
     display: flex;
     justify-content: center;
+    color: #ffffff;
+    font-size: medium;
   }
 
 
