@@ -54,7 +54,7 @@ body {
     text-decoration: none;
     color: white;
     font-size: 16px;
-    padding: 10px 20px; /* Ajustado o padding para melhor espaçamento */
+    padding: 10px 20px; 
     border-radius: 5px;
     transition: background-color 0.3s;
     line-height: normal;
