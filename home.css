@@ -138,6 +138,8 @@ body {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-size: smaller;
+    transition: transform 0.3s ease; 
+    box-shadow: 0.3s ease;
 }
 
 .containerFigure span {
@@ -162,3 +164,7 @@ ul{
 #containerCopy {
     margin-top: 20px;
 }
+.animate {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+    }
