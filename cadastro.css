@@ -210,10 +210,12 @@ input::placeholder {
 
 
   .helper-text {
-    display: flex;
+    display: none;
     justify-content: center;
     color: #ffffff;
     font-size: medium;
   }
 
-
+  .helper-text.visible { /* Especifica que apenas elementos com ambas as classes serão exibidos */
+    display: flex; /* Ou use 'block' se preferir */
+}
