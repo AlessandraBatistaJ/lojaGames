@@ -59,27 +59,40 @@ body {
 
 .btn_entrar {
     width: 221px;
-    height: 40px;
-    padding: top 25px;
-    margin-left: auto;
-    margin-right: auto;
+    height: 50px; /* Ajustado para melhor proporção com o font-size */
+    margin: 20px auto; /* Centraliza o botão horizontalmente e adiciona espaçamento vertical */
+    padding: 8px; /* Mantém o padding geral */
     text-align: center;
-    padding: 8px;
     border-radius: 5px;
     font-family: 'Maven Pro', sans-serif;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 18px; /* Reduzido para melhor alinhamento com a altura */
     font-weight: 600;
     background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%);
+    border: none; /* Remove a borda padrão */
+    color: #000; /* Define a cor do texto para contraste */
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s;
+    display: block; /* Garante que o botão ocupe toda a largura disponível para o margin: auto funcionar */
+    position: relative; /* Permite o posicionamento absoluto das partículas */
+    overflow: hidden; /* Esconde as partículas que saem do botão */
 }
 
+.btn_entrar:hover {
+    background: linear-gradient(90deg, #737373 0%, #D9D9D9 100%);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
 
-
+.btn_entrar:active {
+    transform: scale(1); /* Retorna ao tamanho original quando clicado */
+    background: linear-gradient(90deg, #D9D9D9 0%, #737373 100%); /* Reverte o gradiente */
+}
+    
 
 .divider {
     display: flex;
-    width: 50%;
-    margin-left: 480px;
+    width: 70%;
+    margin: 20px auto;
     justify-content: center;
     align-items: center;
     color: #ffffff;
@@ -100,7 +113,7 @@ body {
 
 
 .itens {
-    display: none;
+    display: flex;
     gap: 25px;
     justify-content: center;
     align-items: center;
@@ -123,6 +136,7 @@ body {
     padding-left: 90px;
     text-align: right;
     margin-right: 50px;
+    color: white;
 }
 
 
@@ -137,6 +151,7 @@ body {
     cursor: pointer;
     margin-right: 50px;
     margin-top: 2%;
+    
 }
 
 
@@ -151,6 +166,7 @@ input::placeholder {
     height: 10vh;
     margin-top: 10px;
     padding-left: 20px;
+    color: white;
 }
 
 
@@ -218,4 +234,4 @@ input::placeholder {
 
   .helper-text.visible { /* Especifica que apenas elementos com ambas as classes serão exibidos */
     display: flex; /* Ou use 'block' se preferir */
-}
+  }
