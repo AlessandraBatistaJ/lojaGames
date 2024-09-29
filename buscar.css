@@ -98,7 +98,7 @@ body {
 .container-lego {
     display: flex;
     justify-content: right;
-    padding: 10px;
+    padding: 4px;
     border-radius: 10px;
     /* align-items: center; */
     /* background-color: #f9f9f9;  */
@@ -112,7 +112,7 @@ body {
 }
 
 aside {
-    margin-top: 150px;
+    margin-top: 60px;
     display: flex;
     align-items: stretch; /* Garante que os dois elementos tenham a mesma altura */
 }
