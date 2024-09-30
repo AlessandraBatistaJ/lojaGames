@@ -77,8 +77,8 @@ body {
     height: auto;
     object-fit: cover;
     display: block;
-    padding-right: 22px;
-    margin-left: 163px;
+    padding-right: 15px;
+    margin-left: 600px;
 }
 
 .containerWelcome {
@@ -91,6 +91,7 @@ body {
     width: 1400px;
     height: auto;
     margin-top: -5px;
+    margin-left: 50px;
 }
 
 .containerH3 {
