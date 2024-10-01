@@ -18,3 +18,18 @@ promoImages.forEach((img) => {
     img.addEventListener('mouseenter', addAnimation);
     img.addEventListener('mouseleave', removeAnimation);
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const promoItems = document.querySelectorAll('.promocoes-item');
+
+    promoItems.forEach((item) => {
+        item.addEventListener('click', function () {
+            // Obter o ID do jogo clicado
+            const gameId = this.getAttribute('data-id');
+
+            // Redirecionar o usuário para a página do jogo correspondente
+            window.location.href = `game.html?gameId=${gameId}`;
+        });
+    });
+});

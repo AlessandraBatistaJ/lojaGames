@@ -1,0 +1,28 @@
+/* Seletores Globais */
+* {
+    font-family: 'Maven Pro', sans-serif;
+    /* margin: auto;  */
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+body {
+    background-color: #273952;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    height: 30px; 
+}
+
+.logo-img {
+    width: 90px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px; 
+    margin-top: 20px;    
+}
