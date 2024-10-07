@@ -2,30 +2,30 @@
 
 -- Criação do banco de dados
 CREATE DATABASE SiteDeJogos;
-USE SiteDeJogos;
+\c SiteDeJogos;  -- Conecta ao banco de dados SiteDeJogos
 
 -- Tabela Jogos
 CREATE TABLE Jogos (
-    id_jogo INT AUTO_INCREMENT PRIMARY KEY,
+    id_jogo INT SERIAL PRIMARY KEY,
     nome_jogo VARCHAR(100) NOT NULL,
-    preco DECIMAL(10, 2) NOT NULL
+    preco NUMERIC(10, 2) NOT NULL
 );
 
 -- Tabela Consoles
 CREATE TABLE Consoles (
-    id_console INT AUTO_INCREMENT PRIMARY KEY,
+    id_console INT SERIAL PRIMARY KEY,
     nome_console VARCHAR(50) NOT NULL
 );
 
 -- Tabela Gêneros
 CREATE TABLE Generos (
-    id_genero INT AUTO_INCREMENT PRIMARY KEY,
+    id_genero INT SERIAL PRIMARY KEY,
     nome_genero VARCHAR(50) NOT NULL
 );
 
 -- Tabela Vendas
 CREATE TABLE Vendas (
-    id_venda INT AUTO_INCREMENT PRIMARY KEY,
+    id_venda INT SERIAL PRIMARY KEY,
     data_venda DATE NOT NULL,
     id_jogo INT,
     FOREIGN KEY (id_jogo) REFERENCES Jogos(id_jogo)

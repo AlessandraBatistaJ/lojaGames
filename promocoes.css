@@ -36,6 +36,7 @@ body {
     display: block;
     margin-bottom: 20px;
     margin-top: 20px;
+    margin-left: -15px;
 }
 /* Navegação */
 .nav-container {
@@ -95,7 +96,7 @@ body {
     padding: 7px;
     border-radius: 5px;
     width: fit-content;
-    margin-left: 52px;
+    margin-left: 32px;
 }
 
 .promocoes-container {
@@ -106,7 +107,7 @@ body {
     padding: 20px;
     text-align: center;
     margin-left: 10px;
-    overflow: hidden; /* Garante que a sombra não ultrapasse o container */
+    overflow: visible;
 }
 
 
