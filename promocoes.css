@@ -34,10 +34,9 @@ body {
     height: auto;
     object-fit: cover;
     display: block;
-    margin-bottom: 20px; 
-    margin-top: 20px;    
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
 /* Navegação */
 .nav-container {
     display: flex;
@@ -85,6 +84,7 @@ body {
     margin-top: 18px;
 
 }
+
 
 /* Seção de Promoções */
 .promocoes-section h1 {
