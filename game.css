@@ -26,3 +26,15 @@ body {
     margin-bottom: 20px; 
     margin-top: 20px;    
 }
+/* Footer */
+.containerFooter {
+    color: #fff;
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+#containerCopy {
+    margin-top: 20px;
+}
