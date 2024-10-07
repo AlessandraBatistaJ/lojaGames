@@ -30,7 +30,7 @@ body {
 }
 
 .logo-img {
-    width: 90px;
+    width: 130px;
     height: auto;
     object-fit: cover;
     display: block;
@@ -47,7 +47,8 @@ body {
     width: 100%;
     border-radius: 8px;
     background-color: #151B2B;
-    padding: 0 10px; /* Adiciona padding horizontal para espaçar levemente os links do limite do container */
+    padding: 0 10px; 
+    margin-top: 20px;
 }
 
 .nav-container a {
@@ -79,8 +80,9 @@ body {
     height: auto;
     object-fit: cover;
     display: block;
-    padding-right: 22px;
-    margin-left: 160px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-top: 18px;
 
 }
 
