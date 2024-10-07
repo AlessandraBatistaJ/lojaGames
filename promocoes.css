@@ -30,14 +30,13 @@ body {
 }
 
 .logo-img {
-    width: 90px;
+    width: 150px;
     height: auto;
     object-fit: cover;
     display: block;
-    margin-bottom: 20px; 
-    margin-top: 20px;    
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
 /* Navegação */
 .nav-container {
     display: flex;
@@ -80,9 +79,11 @@ body {
     object-fit: cover;
     display: block;
     padding-right: 22px;
-    margin-left: 160px;
+    margin-left: 800px;
+
 
 }
+
 
 /* Seção de Promoções */
 .promocoes-section h1 {

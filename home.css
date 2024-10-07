@@ -30,7 +30,7 @@ body {
 }
 
 .logo-img {
-    width: 90px;
+    width: 150px;
     height: auto;
     object-fit: cover;
     display: block;
@@ -77,9 +77,12 @@ body {
     height: auto;
     object-fit: cover;
     display: block;
-    padding-right: 15px;
-    margin-left: 600px;
+    padding-right: 22px;
+    margin-left: 800px;
+
+
 }
+
 
 .containerWelcome {
     display: flex;
@@ -91,7 +94,7 @@ body {
     width: 1400px;
     height: auto;
     margin-top: -5px;
-    margin-left: 50px;
+    margin-left: 250px;
 }
 
 .containerH3 {
