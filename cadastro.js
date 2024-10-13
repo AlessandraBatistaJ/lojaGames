@@ -65,4 +65,26 @@ senhaInput.addEventListener("blur", function() {
     }
 });
 
+// cadastro.js
+
+// Selecionar todas as imagens dentro dos itens de home
+let redesImages = document.querySelectorAll('.itens img');
+
+// Função para adicionar a classe de animação
+function addAnimation(event) {
+event.target.classList.add('animate');
+}
+
+// Função para remover a classe de animação
+function removeAnimation(event) {
+event.target.classList.remove('animate');
+}
+
+// Adicionar event listeners para cada imagem
+redesImages.forEach((img) => {
+img.addEventListener('mouseenter', addAnimation);
+img.addEventListener('mouseleave', removeAnimation);
+});
+
+
 
