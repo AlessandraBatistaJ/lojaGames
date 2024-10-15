@@ -6,37 +6,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./home.css">
-    <script src="./home.js" defer></script> 
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/loadComponents.js" defer></script> <!-- Adiciona o JS responsável pelos componentes -->
+    <script src="/js/home.js" defer></script>
     <title>Cyber Play - Home</title>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo-container">
-                <img src="./img/logo.png" alt="Cyber Play Logo" class="logo-img">
-            </div>
-            <nav class="nav-container">
-                <a href="index.html" class="active">HOME</a>
-                <a href="buscar.html" target="_blank">BUSCAR JOGOS</a>
-                <a href="categorias.html" target="_blank">CATEGORIAS</a>
-                <a href="promocoes.html" target="_blank">PROMOÇÕES</a>
-                <a href="cadastro.html" target="_blank">CADASTRO</a>
-            </nav>
-            <div class="profile-container">
-                <a href="cadastro.html">
-                    <img src="./img/profile.png" alt="Ícone de Perfil" class="profile-icon">
-                </a>
-            </div>
-            
-        </div>        
-    </header>
-    <main>
+
+
+    <div id="header-placeholder"></div> <!-- Aqui o header.html será carregado dinamicamente -->
 
     <main>
         <section>
             <div class="containerWelcome">
-                <img src="./img/home/welcomeToGame.png" alt="imagem central">
+                <img src="/img/home/welcomeToGame.png" alt="imagem central">
             </div>
         </section>
         
@@ -47,61 +31,38 @@
             
             <div class="containerGames">
                 <figure class="containerFigure">
-                    <img src= "./img/home/deadByDayLight.png" alt="Jogo dead by daylight">
+                    <img src= "/img/home/deadByDayLight.png" alt="Jogo dead by daylight">
                     <figcaption><span>-50% </span> R$99,90</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/plantsVsZombies.png" alt="Jogo plants vs zombies">
+                    <img src="/img/home/plantsVsZombies.png" alt="Jogo plants vs zombies">
                     <figcaption><span>-20% </span> R$29,90</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/zelda.png" alt="Jogo zelda">
+                    <img src="/img/home/zelda.png" alt="Jogo zelda">
                     <figcaption><span>-10% </span> R$199,90</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/fc24.png" alt="Jogo FC 24">
+                    <img src="/img/home/fc24.png" alt="Jogo FC 24">
                     <figcaption><span>-15% </span> R$259,90</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/wac.png" alt="Jogo wac">
+                    <img src="/img/home/wac.png" alt="Jogo wac">
                     <figcaption><span>-30% </span> R$79,90</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/theCompanion.png" alt="Jogo The Companion">
+                    <img src="/img/home/theCompanion.png" alt="Jogo The Companion">
                     <figcaption><span>-40% </span> R$16,99</figcaption>
                 </figure>
                 <figure class="containerFigure">
-                    <img src="./img/home/madden25.png" alt="Jogo Madden 25">
+                    <img src="/img/home/madden25.png" alt="Jogo Madden 25">
                     <figcaption><span>-10% </span> R$289,90</figcaption>
                 </figure>
-            
-               
             </div>
         </section>
     </main>
     
-    <footer>
-        <div class="containerFooter">
-            <span>
-                Elaborado pela equipe 4:
-            </span>
-            
-                Alessandra Batista |
-                Ana Clara Abreu |
-                Jorge Pedro |
-                Karina Otubo |
-                Osmar Filho |
-                Thiago Sabino |
-            
-        </div>
-            
-        <div class="containerFooter" id="containerCopy">
-            <span>
-                <strong>&copy; 2024, Cyber Play, Inc.</strong> Todos os direitos reservados. O Cyber Play é um projeto final do bootcamp Talent Cloud - Front-End, da Proz. 
-                Todo desenvolvido pelos alunos do Grupo 4, com supervisão dos professores e demais membros da equipe da Proz.
-            </span>
-        </div>
-    </footer>
+    <div id="footer-placeholder"></div> <!-- Aqui o footer.html será carregado dinamicamente -->
+
 </body>
 </html>
-    
